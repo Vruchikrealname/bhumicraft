@@ -12,6 +12,10 @@ menu.onclick = () => {
     navbar.classList.toggle('open');
     
 };
+window.oncroll = () => {
+    menu.classList.remove('bx-b');
+    navbar.classList.remove('open');
+};
 
 
 
