@@ -12,7 +12,7 @@ menu.onclick = () => {
     navbar.classList.toggle('open');
     
 };
-window.oncroll = () => {
+window.onscroll = () => {
     menu.classList.remove('bx-b');
     navbar.classList.remove('open');
 };
