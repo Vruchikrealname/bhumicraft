@@ -288,7 +288,7 @@ transition: 1s ease;
     transform: scale(0.9) translateY(-5PX);
 }
 .product{
-    background: url(Images/pexels-codioful-\(formerly-gradienta\)-7135022.jpg);
+    background: url(Images/ProductBg.jpg);
     background-size: cover;
     background-position: center;
 
