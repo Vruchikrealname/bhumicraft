@@ -409,24 +409,22 @@ transition: 1s ease;
     font-size: 20px;
     margin-bottom: 40px;
 }
-.contact{
-    padding: 60px 13%;
-    background:var(--bg-color);
-}
+
 .main-contact{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 .contact-content img{
     height: auto;
-    width: 169px;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom:2px
 
 }
 .contact-content li{
     margin-bottom: 18px;
+    margin-top: 20px;
+    
 }
 .contact-content li a{
     display: block;
@@ -434,11 +432,38 @@ transition: 1s ease;
     font-weight: 500;
     font-size: 15px;
     transition: all .40s ease;
+    color: #645f5f;
+    
+    
+    
+    
 }
 .contact-content li a:hover{
     transform: translateY(10px);
     color: var(--main-color);
-
+    
+}
+.location{
+    width: 100px;
+     
+}
+.mail{
+    width: 100px;
+}
+.whatsapp{
+    width: 100px;
+}
+.facebook{
+    width: 150px;
+   
+    
+}
+.insta{
+    width: 36px;
+}
+.twitter{
+    width: 36px;
+       
 }
 .last-text p{
     text-align: center;
